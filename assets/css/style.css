@@ -1,0 +1,423 @@
+/* CSS reset */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth	;
+}
+
+/* Header section */
+
+#header {
+	background: url(../images/slider1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.black-bg {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgb(0 0 0 / 82%), rgb(0 0 0 / 79%));
+	z-index: 0;
+}
+
+.number {
+	width: 25%;
+	margin-left: auto;
+	margin-top: 1em;
+	margin-right: 1em;
+	cursor: pointer;
+}
+
+.number ul {
+	list-style: none;
+	display: inline-flex;
+}
+
+.number ul li {
+	margin-right: 1em;
+}
+
+.number ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.logo {
+	margin-left: 3em;
+}
+
+.logo img {
+	width: 30%;
+}
+
+.nav {
+	margin-left: auto;
+	width: 65%;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+.nav ul li {
+	display: inline-block;
+	padding-right: 2.4em;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav ul li:hover a span {
+	border-bottom: 2px solid #fff;
+	padding-bottom: 0.4rem;
+	transition: 0.5s;
+}
+
+.banner-content {
+	width: 25%;
+	margin: auto;
+	margin-top: 10em;
+	background: #11c7b49e;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.banner-content h1 {
+	font-size: 2em;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 5px;
+	color: rgb(255, 255, 255);
+}
+
+.button {
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	background: #000;
+	color: white;
+	padding: 5px 10px;
+}
+
+.button:hover {
+	background: rgba(0, 0, 0, 0.836);
+}
+
+/* Header end here */
+
+#whatwedo {
+	margin-top: 4em;
+}
+
+.whatwedo-txt {
+	position: relative;
+}
+
+.whatwedo-txt h3 {
+	font-size: 3em;
+	color: black;
+	font-weight: 600;
+	position: relative;
+	margin-bottom: 20px;
+	padding: 0 20px;
+	cursor: pointer;
+}
+
+.span {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 5px;
+	height: 57px;
+	background-color: #0cae9d;
+}
+
+.whatwedo-img img {
+	width: 100%;
+	cursor: pointer;
+	border: 4px solid #008F81;
+}
+
+/* What we do end here */
+
+#services {
+	margin-top: 5em;
+}
+
+.heading-bx {
+	position: relative;
+	margin-bottom: 3em;
+}
+
+.heading-txt {
+	font-size: 2.5em;
+	font-weight: 500;
+	padding: 0 20px;
+	cursor: pointer;
+	margin: 0;
+}
+
+.serviceImg img {
+	width: 100%;
+}
+
+.s-img-txt {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 22px;
+	cursor: pointer;
+	font-weight: 400;
+}
+
+.s-btn-bx {
+	margin: auto;
+	margin-top: 4%;
+}
+
+.button {
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	background: #000;
+	color: white;
+	padding: 5px 10px;
+}
+
+/* Service end here */
+
+#Kitchen {
+	background: url(../images/kitchen-design.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 500px;
+	margin-top: 5em;
+}
+
+.black-bg {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgb(0 0 0 / 82%), rgb(0 0 0 / 79%));
+	z-index: 0;
+}
+
+.kitchenSlider {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.kitchenimg {
+	width: 100%;
+	margin: 27px;
+}
+
+.kitchenimg img {
+	width: 100%;
+}
+
+/* Kitchen end here */
+
+#contact {
+	margin-top: 5em;
+}
+
+.con-info {
+	cursor: pointer;
+	margin-left: 22px;
+}
+
+.conNumBox {
+	display: flex;
+}
+
+.GetAQuote {
+	background: url(../images/kitchen-design.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 450px;
+	padding: 40px;
+}
+
+.black-bg {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgb(0 0 0 / 82%), rgb(0 0 0 / 79%));
+	z-index: 0;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-control {
+	border: none;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 0px;
+	outline: none;
+}
+
+.form-btn {
+    background-color: white;
+    border: 2px solid #0cae9d;
+    color: #0cae9d;
+    padding: 8px 30px;
+    font-weight: 400;
+    font-size: 1.3em;
+    transition: All 0.3s ease-in-out;
+}
+
+.form-btn:hover {
+	color: black;
+}
+/* Contact end here */
+
+#Footer {
+	background: url(../images/kitchen-design.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 450px;
+	padding: 40px;
+	margin-top: 4em;
+}
+
+.black-bg {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgb(0 0 0 / 82%), rgb(0 0 0 / 79%));
+	z-index: 0;
+}
+
+.footertxtBox {
+	padding-top: 80px;
+}
+
+.Footlogo {
+	margin-bottom: 18px;
+}
+
+.Footlogo img {
+	width: 130px;
+}
+
+.footTxt {
+	color: white;
+	line-height: 22px
+}
+
+.col2Txt {
+	margin-left: 20px;
+}
+
+.footCol2 {
+	padding-top: 32px;
+}
+
+.smallheadingfoot {
+	font-size: 28px;
+	padding-bottom: 20px;
+	padding-left: 17px;
+	font-weight: bold;
+}
+
+.footCol3 {
+	padding-top: 32px;
+}
+
+.searchBOX input {
+    width: 250px;
+    color: black;
+    border: 2px solid white;
+    border-radius: 0;
+    outline: none;
+    padding: 8px 15px;
+}
+.searchBOX {
+	margin-left: 20px;
+}
+
+.footerLink {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.links {
+	position: relative;
+}
+
+.links a {
+	padding: 0px 60px;
+	text-decoration: none;
+	color: white;
+}
+
+.footSpan1 {
+	width: 3px;
+	height: 25px;
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	left: 165px;
+}
+
+.footSpan2 {
+	width: 3px;
+	height: 25px;
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	left: 354px;
+}
+
+.footSpan3 {
+	width: 3px;
+	height: 25px;
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	left: 525px;
+}
+
+.copyright {
+    margin-top: 3em;
+    color: white;
+    text-align: center;
+}
+.copyright p {
+	margin-bottom: 0;
+	padding: 0;
+}
