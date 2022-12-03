@@ -87,6 +87,11 @@
 	padding-bottom: 0.4rem;
 	transition: 0.5s;
 }
+.active a span {
+	border-bottom: 2px solid #fff;
+	padding-bottom: 0.4rem;
+	transition: 0.5s;
+}
 
 .banner-content {
 	width: 25%;
